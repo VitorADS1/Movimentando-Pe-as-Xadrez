@@ -31,6 +31,18 @@ int main(){
         
         } while ( r < 8);
 
+    printf("Movimento Cavalo, 3 casas em L (Cima, Direita, Direita)\n"); // O cavalo move 3 casas em L
+    
+    int movimentoCavalo = 1;
+
+        while(movimentoCavalo--){               // Movimento do cavalo em loops aninhados ( while e for )
+
+            for(int c = 0; c < 2; c++){
+                printf ("Direita\n");  // Imprime a direção para direita
+            }
+                printf("Cima\n");      // Imprime a direção para cima
+        }
+
 
     return 0;
 
